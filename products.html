@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      background-color: #ddd;
+      padding: 10px 20px;
+      margin: 0 5px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #aaa;
+      color: white;
+    }
+
+    .product-container {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .product-container img {
+      width: 100%;
+      max-width: 300px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .btn-container button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-container button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Products</h1>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Product 1 -->
+  <div class="product-container">
+    <h2>Cool Sneakers</h2>
+    <img id="product1-image" src="images/sneaker.jpg" alt="Cool Sneakers">
+    <div class="btn-container">
+     
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-container">
+    <h2>Sport Shoes</h2>
+    <img id="product2-image" src="images/sport_shoe.jpg" alt="Sport Shoes">
+    <div class="btn-container">
+     <div class="product-container">
+
+    <h2>Sun Dress</h2>
+    <img id="product2-image" src="sun_dress.jpg" alt="Sport Shoes">
+    <div class="btn-container"> 
+    </div>
+    <div class="product-container">
+    <h2>Umbhaco</h2>
+    <img id="product1-image" src="images/Umbhaco.jpg" alt="Cool Sneakers">
+    <div class="btn-container">
+     
+  </div>
+
+  <script>
+    function changeImage(imgId, imagePath) {
+      const img = document.getElementById(imgId);
+      img.src = imagePath;
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
